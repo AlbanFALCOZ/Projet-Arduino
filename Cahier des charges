@@ -1,7 +1,7 @@
 Cahier des charges :
 
 Création d'un robot contre lequel le joueur pourra juer à Pierre Feuille Ciseau. Le robot sera composé d'un écran permettant de lancer la partie et d'afficher le résultat.
-Il possédera également un bras robotique qui effectuera les gestes de pierre, feuille ou ciseau selon ce qu'il a choisit.
+Il possédera également un bras robotique qui effectuera les gestes de pierre, feuille ou ciseau selon ce qu'il a choisi.
 Le robot reconnaitra par ailleurs le coup que le joueur à choisi via une caméra. Il sera donc composé d'une IA préalablement entrainée à reconnaitre les coups de pierre, feuille ou ciseau.
 
 Une partie contre le robot se donc de la manière suivante :
