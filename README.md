@@ -1,2 +1,2 @@
 # Projet-Arduino
-Robot pouvant jouer à Pierre Feuille Ciseau
+Bras robot controlé à distance permettant de jouer à Pierre Feuille Ciseau
