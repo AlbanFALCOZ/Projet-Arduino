@@ -1,1 +1,10 @@
+16/12/2022 Rapport N°1 :
 
+Lors de la 1ère séance, j'ai reçu divers matériaux pour la construction de mon projet.
+Malheureusement, le bras robot est entrain d'être imprimé du coup, je n'ai pas pu travailler dessus.
+J'ai donc décidé de me pencher sur les résistances variables appelées "flex sensor" pour comprendre comment marchent-elles.
+
+Les "flex sensor" est donc une résistance variable qui fonctionne comme un potentiomètre pour changer la valeur d'une résistance
+ou comme un diviseur de tension.
+Cependant, je ne savais pas à quel point il affectait la tension, quelles sont réellement ses valeurs. 
+J'ai donc crée un premier circuit pour mieux comprendre (Voir schéma photo dans 1er montage)
