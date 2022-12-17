@@ -8,3 +8,21 @@ Les "flex sensor" est donc une résistance variable qui fonctionne comme un pote
 ou comme un diviseur de tension.
 Cependant, je ne savais pas à quel point il affectait la tension, quelles sont réellement ses valeurs. 
 J'ai donc crée un premier circuit pour mieux comprendre (Voir schéma photo dans 1er montage)
+
+Après avoir fait le montage et écrit le code (Voir Montage valeur flex sensor dans 1er montage), j'ai pu avoir la tension donnée par
+le flex sensor grâce à analogRead()
+
+Du coup, le flex sensor renvoie des valeurs entre 10 (cas où il est tout droit) environ jusqu'à 0 (cas où on le tord au maximum).
+Il renvoie donc des valeurs allant de 0 à 10 pour un intervalle de 0 à 1023.
+
+Après avoir compris son fonctionnement, j'ai décidé de faire un autre montage pour voir ce que je pouvais en faire.
+J'ai donc reproduit le montage de ce lien pour faire varier la luminosité d'une led grâce au flex sensor:
+https://www.instructables.com/How-to-use-a-Flex-Sensor-Arduino-Tutorial/#:~:text=1%20Step%201%3A%20What%20You%20Will%20Need.%20,learned%20how%20to%20use%20a%20flex...%20More%20
+
+J'ai donc reproduit le montage mais je me suis confronté à un problème: la luminosité de la led ne changeait pas lorsque je tordais le flex sensor.
+J'ai donc du chercher dans le code ce qui n'allait pas et j'ai trouvé le problème:
+la value que je donnais à analogRead(led,value) ne variait que de 1010 à 1020. Ceci vient de ce que j'ai observé plus haut:
+le flex sensor ne renvoie que des valeurs entre 0 et 10.
+
+J'ai donc du changer la façon de calculer la value et j'ai réussi à obtenir le bon résultat.
+Voici ce que cela donne en vidéo :
