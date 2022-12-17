@@ -26,3 +26,8 @@ le flex sensor ne renvoie que des valeurs entre 0 et 10.
 
 J'ai donc du changer la façon de calculer la value et j'ai réussi à obtenir le bon résultat.
 Voici ce que cela donne en vidéo :
+https://youtu.be/GAZB0Lt4CIw
+
+Voilà tout ce que j'ai fait
+
+Pour la prochaine fois, j'espère pouvoir travailler sur le bras robot s'il a fini d'être imprimé et commencer les robot moteurs
